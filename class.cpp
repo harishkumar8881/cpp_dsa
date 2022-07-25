@@ -5,15 +5,15 @@ class Rectangle
     int width, height;
 
 public:
-    int setWidth(int x)
+    void setWidth(int x)
     {
         width = x;
     }
-    int setHeight(int y)
+    void setHeight(int y)
     {
         height = y;
     }
-    int setDimensions(int x, int y)
+    void setDimensions(int x, int y)
     {
         width = x;
         height = y;
